@@ -7,7 +7,7 @@ Lab instructions: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 ```
 |   Name    | GitHub Id |  Service                    | Controller                |
 |-----------|-----------|-----------------------------|---------------------------|
-|           |           | `LocationQueryService`      | `LocationController`      |
+|   Derek   |  golo230  | `LocationQueryService`      | `LocationController`      |
 |           |           | `PublicHolidayQueryService` | `PublicHolidayController` |
 |           |           | `TidesQueryService`         | `TidesController`         |
 |           |           | `UniversityQueryService`    | `UniversityController`    |
