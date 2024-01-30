@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-w24/team01-w24-6pm-4
 owner: ucsb-cs156-w24
 repo_name: team01-w24-6pm-4
-pull_requests: [{"author":{"id":"U_kgDOCL9k9A","is_bot":false,"login":"djoyneruscb","name":"David"},"headRefName":"DJ-Location-Query-Service","number":18,"title":"Dj location query service","url":"https://github.com/ucsb-cs156-w24/team01-w24-6pm-4/pull/18"}]
+pull_requests: [{"author":{"id":"U_kgDOBaDySw","is_bot":false,"login":"AdmPenguin","name":"Bao T."},"headRefName":"bt-PublicHolidayQueryService","number":19,"title":"Bt public holiday query service","url":"https://github.com/ucsb-cs156-w24/team01-w24-6pm-4/pull/19"}]
