@@ -13,7 +13,7 @@ import static org.springframework.test.web.client.response.MockRestResponseCreat
 
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.header;
 
-@RestClientTest(TidesQueryServiceQueryService.class)
+@RestClientTest(TidesQueryService.class)
 public class TidesQueryServiceTests {
 
     @Autowired
