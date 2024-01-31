@@ -22,6 +22,7 @@ import org.springframework.web.client.HttpClientErrorException;
 @Service
 public class UniversityQueryService {
 
+    ObjectMapper mapper = new ObjectMapper();
 
     private final RestTemplate restTemplate;
 
@@ -33,8 +34,16 @@ public class UniversityQueryService {
 
     public String getJSON(String name) throws HttpClientErrorException {
         log.info("name={}", name);
+        HttpHeaders headers = new HttpHeaders();
+        headers.setAccept(List.of(MediaType.APPLICATION_JSON));
+        headers.setContentType(MediaType.APPLICATION_JSON);
+
+        HttpEntity<String> entity = new HttpEntity<>(headers);
+
         Map<String, String> uriVariables = Map.of("name", name);
 
-        return "";
+        ResponseEntity<String> re = restTemplate.exchange(ENDPOINT, HttpMethod.GET, entity, String.class,
+                uriVariables);
+        return re.getBody();
     }
 }
