@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-w24/team01-w24-6pm-4
 owner: ucsb-cs156-w24
 repo_name: team01-w24-6pm-4
-pull_requests: [{"author":{"id":"U_kgDOBdPPow","is_bot":false,"login":"ryanvo504","name":""},"headRefName":"rv-zipcode","number":20,"title":"Add zipcode service","url":"https://github.com/ucsb-cs156-w24/team01-w24-6pm-4/pull/20"}]
+pull_requests: []
